@@ -1,0 +1,222 @@
+:root {
+  --logo-main-color: #4d5ae5;
+  --background-color-section: #2e2f42;
+  --section-heading-color: #434455;
+  --background-color: #ffffff;
+  --footer-color: #f4f4fd;
+  --link-hover-focus: #404bbf;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--section-heading-color);
+  line-height: 1.6;
+  background-color: var(--background-color);
+}
+p {
+  color: var(--background-color-section);
+}
+.logo {
+  color: var(--logo-main-color);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo link {
+  color: var(--background-color-section);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+span {
+  color: var(--background-color-section);
+}
+.list {
+  color: var(--background-color-section);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+.studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color-section);
+}
+.link {
+  text-decoration: none;
+}
+.link-both:focus,
+.link-both:hover {
+  color: var(--background-color-section);
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+.boolean {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--background-color-section);
+}
+.link-boolean {
+  color: var(--background-color-section);
+  text-decoration: none;
+}
+.boolean {
+  font-weight: 500;
+}
+.section-first {
+  background-color: var(--background-color-section);
+}
+.section-first-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+.button-first {
+  background-color: var(--logo-main-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+}
+.button-first:hover {
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
+}
+.button-first:focus {
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
+}
+.section-second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.section-second-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--section-heading-color);
+  background-color: var(--background-color);
+  font-weight: 400;
+}
+.section-third {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--background-color-section);
+}
+.section-third-title {
+  background-color: var(--footer-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.section-fourth {
+  background-color: var(--footer-color);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.img {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--background-color-section);
+  background-color: var(--background-color);
+}
+.footer {
+  background-color: var(--background-color-section);
+}
+.footer-text {
+  line-height: 1.5;
+  color: var(--footer-color);
+  letter-spacing: 0.02em;
+}
+.button-second {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+  cursor: pointer;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--section-heading-color);
+}
+.header-list-focus {
+  color: var(--background-color-section);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.logo-span {
+  color: var(--footer-color);
+}
+.all {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-main-color);
+  background-color: var(--footer-color);
+}
+.all-both:focus,
+.all-both:hover {
+  color: var(--background-color);
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
+}
+.button-first-hover {
+  background-color: var(--link-hover-focus);
+}
+.list-text {
+  color: var(--section-heading-color);
+  font-weight: 400;
+}
+.array {
+  color: var(--background-color-section);
+}
+.boolean:hover,
+.boolean:focus {
+  color: var(--link-hover-focus);
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--section-heading-color);
+}
+.address-link:focus,
+.address-link:hover {
+  color: var(--link-hover-focus);
+}
