@@ -140,6 +140,7 @@ span {
   color: var(--section-heading-color);
   background-color: var(--background-color);
   font-weight: 400;
+  text-align: center;
 }
 .section-third {
   font-size: 36px;
@@ -148,6 +149,7 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
+  padding-bottom: 120px;
 }
 .section-third-title {
   background-color: var(--footer-color);
@@ -155,6 +157,8 @@ span {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .section-fourth {
   background-color: var(--footer-color);
@@ -249,7 +253,6 @@ span {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
 }
 .navigation {
   padding: 10px;
@@ -277,4 +280,11 @@ span {
 }
 .section-third {
   padding-bottom: 120px;
+}
+.list-item {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
