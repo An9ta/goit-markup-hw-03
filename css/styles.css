@@ -158,9 +158,11 @@ span {
   text-transform: capitalize;
   color: var(--background-color-section);
   background-color: var(--background-color);
+  display: block;
 }
 .footer {
   background-color: var(--background-color-section);
+  padding: 100px 0;
 }
 .footer-text {
   line-height: 1.5;

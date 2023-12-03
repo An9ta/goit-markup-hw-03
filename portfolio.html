@@ -10,34 +10,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo link link-focus"
-          >Web<span class="header-span">Studio</span>
-        </a>
-        <ul class="list">
-          <li><a href="./index.html" class="link boolean">Studio</a></li>
-          <li><a href="./portfolio.html" class="link boolean">Portfolio</a></li>
-          <li><a href="" class="link boolean">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="address-link link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="address-link link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="forehead">
+      <div class="container">
+        <nav class="navigation">
+          <a href="./index.html" class="logo link link-focus"
+            >Web<span class="header-span">Studio</span>
+          </a>
+          <ul class="list">
+            <li><a href="./index.html" class="link boolean">Studio</a></li>
+            <li>
+              <a href="./portfolio.html" class="link boolean">Portfolio</a>
+            </li>
+            <li><a href="" class="link boolean">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="address-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="address-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section>
@@ -172,13 +180,15 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo link link-focus"
-        >Web<span class="logo-span">Studio</span>
-      </a>
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo link link-focus"
+          >Web<span class="logo-span">Studio</span>
+        </a>
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
