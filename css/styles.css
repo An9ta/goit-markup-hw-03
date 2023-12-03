@@ -116,6 +116,8 @@ span {
   display: block;
   min-width: 169px;
   height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button-first:hover {
   background-color: var(--link-hover-focus);
@@ -158,13 +160,16 @@ span {
   background-color: var(--footer-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding: 120px;
 }
 .img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--background-color-section);
   background-color: var(--background-color);
-  display: block;
 }
 .footer {
   background-color: var(--background-color-section);
@@ -254,4 +259,22 @@ span {
 .forehead {
   border-bottom: 1px solid var(--cornflower);
   background: var(--background-color);
+}
+.section-second {
+  padding: 120px 0;
+}
+.visual-studio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.section-third {
+  padding-bottom: 120px;
 }
