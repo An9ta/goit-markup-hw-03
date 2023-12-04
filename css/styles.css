@@ -57,7 +57,7 @@ span {
   letter-spacing: 0.02em;
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 24px;
 }
 .studio {
   font-weight: 500;
@@ -137,6 +137,7 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .section-second-text {
   font-size: 16px;
@@ -170,7 +171,7 @@ span {
   background-color: var(--footer-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding: 120px;
+  padding: 120px 0;
 }
 .img {
   display: block;
@@ -309,6 +310,7 @@ span {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
+  width: calc((100%-72px) / 4);
 }
 .images-item {
   gap: 24px;
