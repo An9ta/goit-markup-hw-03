@@ -68,6 +68,8 @@ span {
 }
 .link {
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .link-both:focus,
 .link-both:hover {
@@ -134,6 +136,7 @@ span {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .section-second-text {
   font-size: 16px;
@@ -143,6 +146,7 @@ span {
   background-color: var(--background-color);
   font-weight: 400;
   text-align: center;
+  width: calc((100%-72px) / 4);
 }
 .section-third {
   font-size: 36px;
@@ -177,6 +181,7 @@ span {
   color: var(--background-color-section);
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
+  gap: 24px;
 }
 .footer {
   background-color: var(--background-color-section);
@@ -221,6 +226,8 @@ span {
   letter-spacing: 0.04em;
   color: var(--logo-main-color);
   background-color: var(--footer-color);
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
 }
 .all-both:focus,
 .all-both:hover {
@@ -280,7 +287,7 @@ span {
 .section-second {
   padding: 120px 0;
 }
-.visual-studio {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -301,7 +308,7 @@ span {
   width: 264px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 24px;
 }
 .images-item {
   gap: 24px;
