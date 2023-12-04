@@ -58,6 +58,10 @@ span {
   list-style: none;
   display: flex;
   gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+  flex-wrap: wrap;
+  row-gap: 48px;
 }
 .studio {
   font-weight: 500;
@@ -215,6 +219,7 @@ span {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .logo-span {
   color: var(--footer-color);
@@ -280,6 +285,7 @@ span {
   padding: 10px;
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .forehead {
   border-bottom: 1px solid var(--cornflower);
