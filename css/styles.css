@@ -56,12 +56,6 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  margin-bottom: 72px;
-  flex-wrap: wrap;
-  row-gap: 48px;
 }
 .studio {
   font-weight: 500;
@@ -72,18 +66,11 @@ span {
 }
 .link {
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 .link-both:focus,
 .link-both:hover {
   color: var(--background-color-section);
   text-decoration: none;
-}
-.address {
-  font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 .boolean {
   font-size: 16px;
@@ -177,6 +164,9 @@ span {
   text-transform: capitalize;
   padding: 120px 0;
 }
+img {
+  display: block;
+}
 .img {
   display: block;
   max-width: 100%;
@@ -268,7 +258,7 @@ span {
 .address {
   font-style: normal;
   display: flex;
-  gap: 40px;
+  padding: 24px 0;
 }
 .address-link {
   font-size: 16px;
@@ -284,13 +274,10 @@ span {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  display: flex;
 }
 .navigation {
-  padding: 10px;
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .forehead {
   border-bottom: 1px solid var(--cornflower);
@@ -310,7 +297,6 @@ span {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 .section-third {
   padding-bottom: 120px;
@@ -321,7 +307,6 @@ span {
   flex-direction: column;
   align-items: flex-start;
   gap: 24px;
-  width: calc((100%-72px) / 4);
 }
 .images-item {
   gap: 24px;
@@ -337,4 +322,16 @@ span {
   padding: 32px 16px;
   border: 1px solid var(-cornflower);
   border-top: none;
+}
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+.list-address {
+  display: flex;
+  gap: 40px;
+}
+.list-section-second {
+  display: flex;
+  gap: 24px;
 }
