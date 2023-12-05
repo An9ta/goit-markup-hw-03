@@ -224,12 +224,7 @@ img {
   background-color: var(--footer-color);
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
-}
-.all-both:focus,
-.all-both:hover {
-  color: var(--background-color);
-  background-color: var(--link-hover-focus);
-  cursor: pointer;
+  border-radius: 4px;
 }
 .button-first-hover {
   background-color: var(--link-hover-focus);
@@ -320,7 +315,7 @@ img {
 }
 .photo-portfolio {
   padding: 32px 16px;
-  border: 1px solid var(-cornflower);
+  border: 1px solid var(--cornflower);
   border-top: none;
 }
 .list-header {
@@ -351,4 +346,23 @@ img {
 .hip {
   display: flex;
   gap: 24px;
+}
+.shoulder {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.all:hover,
+.all:focus {
+  border: 1px solid transparent;
+  color: var(--background-color);
+  background-color: var(--link-hover-focus);
+  cursor: pointer;
+}
+.waist {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 24px;
 }
