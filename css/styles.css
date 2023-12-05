@@ -348,7 +348,7 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
-.list-hip {
+.hip {
   display: flex;
   gap: 24px;
 }
